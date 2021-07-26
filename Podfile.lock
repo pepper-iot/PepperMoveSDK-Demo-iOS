@@ -1,0 +1,31 @@
+PODS:
+  - GoogleWebRTC (1.1.31999)
+  - PepperMoveSDK (2.0.2):
+    - GoogleWebRTC (~> 1.1)
+    - PromisesObjC (~> 1.2)
+    - SocketRocket (~> 0.5)
+  - PromisesObjC (1.2.12)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - PepperMoveSDK (from `PepperMoveSDK`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleWebRTC
+    - PromisesObjC
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  PepperMoveSDK:
+    :path: PepperMoveSDK
+
+SPEC CHECKSUMS:
+  GoogleWebRTC: b39a78c4f5cc6b0323415b9233db03a2faa7b0f0
+  PepperMoveSDK: 5ef93fb536147a986e702915cf6eca55884b73ce
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 51f367ffac82273588b0948de039cb906bb60c23
+
+COCOAPODS: 1.10.1

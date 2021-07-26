@@ -1,0 +1,6 @@
+framework module PepperMoveSDK {
+  umbrella header "PepperMove.h"
+
+  export *
+  module * { export * }
+}
