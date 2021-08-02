@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "PepperMoveSDK"
-  s.version = "2.0.2"
+  s.version = "2.0.4"
   s.summary = "iOS library for realtime video streaming from wifi cameras"
   s.license = "Proprietary"
   s.authors = {"Pepper"=>"dev@pepper.me"}

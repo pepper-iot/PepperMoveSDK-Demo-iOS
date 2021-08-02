@@ -27,10 +27,10 @@
 /**
  * Set the credentials for authenticating with PepperMove
  *
- * @param email  The user's email address
+ * @param userId  Any unique string per user; used only locally in the library to identify the current user session
  * @param token  The authentication token
  */
-- (void)setCredentials:(NSString*)email token:(NSString*)token;
+- (void)setCredentials:(NSString*)userId token:(NSString*)token;
 
 /**
  * Request live video for a camera and place it within the view provided
